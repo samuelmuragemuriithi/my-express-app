@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management API</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Task Management API</h1>
+        <p>Your one-stop solution for managing tasks efficiently.</p>
+    </header>
+    
+    <section class="route-table">
+        <h2>API Endpoints</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Method</th>
+                    <th>Endpoint</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>GET</td>
+                    <td>/tasks</td>
+                    <td>Retrieve a list of all tasks</td>
+                </tr>
+                <tr>
+                    <td>GET</td>
+                    <td>/tasks/:id</td>
+                    <td>Retrieve a specific task by its ID</td>
+                </tr>
+                <tr>
+                    <td>POST</td>
+                    <td>/tasks</td>
+                    <td>Create a new task</td>
+                </tr>
+                <tr>
+                    <td>PUT</td>
+                    <td>/tasks/:id</td>
+                    <td>Update an existing task by its ID</td>
+                </tr>
+                <tr>
+                    <td>DELETE</td>
+                    <td>/tasks/:id</td>
+                    <td>Delete a specific task by its ID</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Task Management API. All rights reserved.</p>
+    </footer>
+</body>
+</html>
